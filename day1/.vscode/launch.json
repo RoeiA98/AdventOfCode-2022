@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Roei/Programming/AdventOfCode/2022/day1",
+      "program": "/Users/Roei/Programming/AdventOfCode/2022/day1/build/Debug/outDebug"
+    }
+  ]
+}
