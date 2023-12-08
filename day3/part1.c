@@ -15,7 +15,7 @@ char findCommon(char* first, char* second, int size) {
         }
     }
 
-    return -1;
+    return 0;
 }
 
 int calcSum(char c) {
