@@ -8,10 +8,10 @@ for row in range(HEIGHT): # reading first lines
 
     line = input.readline()
 
-    for column in range(WIDTH):
-        char = line[4*column + 1] # getting the capital letters, skipping others
+    for col in range(WIDTH):
+        char = line[4*col + 1] # getting the capital letters, skipping others
         if char != ' ':
-            stacks[column].append(char)
+            stacks[col].append(char)
     
 for stack in stacks:
     stack.reverse()
@@ -23,10 +23,7 @@ input.readline()
 for line in input:
 
     s = line.split()
-
-    src = int(s[3]) - 1
-    dest = int(s[5]) - 1
-    amount = int(s[1])
+    src, dest, amount = int(s[3]) - 1, int(s[5]) - 1, int(s[1])
 
     for _ in range(amount):
         stacks[dest].append(stacks[src].pop())
