@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Roei/Programming/AdventOfCode/AdventOfCode 2022/day4",
-      "program": "/Users/Roei/Programming/AdventOfCode/AdventOfCode 2022/day4/build/Debug/outDebug"
+      "cwd": "/Users/Roei/Programming/AdventOfCode/AdventOfCode 2022/day5",
+      "program": "/Users/Roei/Programming/AdventOfCode/AdventOfCode 2022/day5/build/Debug/outDebug"
     }
   ]
 }
