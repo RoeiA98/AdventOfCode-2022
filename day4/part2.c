@@ -7,7 +7,7 @@ int main(void) {
 
     FILE* input = fopen("input2.txt", "r");
     int counter = 0;
-    int a = 0, b = 0, c = 0, d = 0;
+    int a, b, c, d = 0;
 
     while(fscanf(input,"%d-%d, %d-%d\n", &a, &b, &c, &d) > 0) { // ! fscanf() READS TILL EOF
 
